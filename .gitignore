@@ -1,0 +1,27 @@
+# ---- Keil MDK 构建产物 ----
+MDK-ARM/FS_ST16/
+*.o
+*.d
+*.crf
+*.lst
+*.axf
+*.map
+*.htm
+*.html
+*.lnp
+*.dep
+*.sct
+*.build_log.htm
+*.out
+*.bin
+
+# ---- Keil 用户级界面/调试状态（换人换机就会变，不入库）----
+*.uvguix.*
+*.bak
+*.orig
+*.tdb
+
+# ---- 其它 ----
+.vscode/
+Thumbs.db
+desktop.ini
